@@ -11,6 +11,8 @@ public class TestNGDemo extends BaseParpare{
 	  WebElement searchButton  = driver.findElement(By.id("su1"));
 	  searchButton.click();
   }
+  
+  
   @Test(description="最大化窗口")
   public void maxWindow(){
 	   driver.manage().window().maximize();
