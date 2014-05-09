@@ -7,10 +7,12 @@
   <test name="TestNG Demo" preserve-order="true">
     <classes>
       <class name="p0508.TestNGDemo"/>
+  
      <methods>
          <include name = "search"/>
 		 <include name = "maxWindow"/>
      </methods>>
+  
     </classes>
   </test> 
 </suite> 
