@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <parameter name="chromeDriverPath" value="E:\DevEnvironment\WebDriver\chrome\chromedriver.exe" />
+  <parameter name="urlBaidu" value="http://www.baidu.com/" />
+
+    
+  <test name="TestNG Demo" preserve-order="true">
+    <packages>
+      <package name="p0508"/>
+
+    </packages>
+  </test> 
+</suite> 
